@@ -4,6 +4,7 @@ body {
   font-family:'Courier New', monospace;
 }
 body.dark-mode {
+  background-image: "";
   background: #010101;
   color: #ffffff;
 }
@@ -41,7 +42,10 @@ nav ul li a {
   text-align: center;
   text-decoration: none;}
 nav ul li a:hover {
-  text-decoration: underline;}
+  display: block;
+  background-color: #2A5761;
+  color: white;
+}
 h1{
   text-align: center;
   font-size: 42px;

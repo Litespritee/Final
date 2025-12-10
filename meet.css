@@ -4,7 +4,8 @@ body {
   font-family:'Courier New', monospace;
 }
 body.dark-mode {
-  background: #010101;
+  background-image: "";
+  background-color: #010101;
   color: #ffffff;
 }
 body.dark-mode button {
@@ -41,7 +42,10 @@ nav ul li a {
   text-align: center;
   text-decoration: none;}
 nav ul li a:hover {
-  text-decoration: underline;}
+  display: block;
+  background-color: #2A5761;
+  color: white;
+}
 h1 {
   color: #444647;
 }
@@ -69,12 +73,14 @@ h1{
 .lil1 {
    display: grid;
    background-color: #E67575;
+  border-radius: 25px;
    grid-template-columns: auto auto;
    opacity: 50%;
    padding: 10px;
 }
 .lil1 div {
   border: 1px solid black;
+  border-radius: 25px;
   padding: 04px;
   font-size: 20px;
   text-align: center;
