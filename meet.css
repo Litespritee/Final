@@ -3,6 +3,13 @@ body {
   background-color: #cccccc;
   font-family:'Courier New', monospace;
 }
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+body.dark-mode button {
+  background-color: #ffffff;
+}
 .row {
   display: flex;
   box-align: center;
