@@ -1,0 +1,65 @@
+body {
+  background-image: url("v602-nunoon-05-rippednotes.jpg");
+  background-color: #cccccc;
+  font-family:'Courier New', monospace;
+}
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+body.dark-mode button {
+  background-color: #ffffff;
+}
+.row {
+  display: flex;
+  box-align: center;
+  color: #444647
+}
+.column {
+  flex: 33.33%;
+  padding: 1px;
+}
+nav ul {background-color: #41A8EC;
+  display: flex;
+  list-style: none;
+  margin: auto;
+  font-family: Courier New;
+  width: 100%;
+  text-align: center;
+  padding: 3px;
+  font-size: 20px;
+}
+nav ul li {
+  padding: 3px;
+  width: 100%;
+  text-align: center;}
+nav ul li:last-child {
+  border-bottom: none;
+  text-align: center;}
+nav ul li a {
+  color: #444647;
+  text-align: center;
+  text-decoration: none;}
+nav ul li a:hover {
+  text-decoration: underline;}
+h1{
+  text-align: center;
+  font-size: 42px;
+}
+.container {
+display: block;
+max-width: 960px;
+margin: auto;
+}
+img{
+  float: left;
+  padding: 5px;
+}
+
+footer{
+  color: #444647;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  font-size: 8px;
+}
