@@ -69,6 +69,7 @@ margin: auto;
 ul.a {
   list-style-type: square;
   list-style-position: inside;
+   font-size: 20px;
 }
 .column {
   float: left;
