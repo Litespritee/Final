@@ -68,6 +68,7 @@ margin: auto;
 }
 ul.a {
   list-style-type: square;
+  list-style-position: inside;
 }
 .column {
   float: left;
