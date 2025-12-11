@@ -4,6 +4,7 @@ body {
   font-family:'Courier New', monospace;
 }
 body.dark-mode {
+   background-image: url("black-stripped-paper.jpg");
   background: #010101;
   color: #ffffff;
 }
@@ -51,17 +52,14 @@ display: block;
 max-width: 960px;
 margin: auto;
 }
-img{
-  float: left;
-  padding: 5px;
-}
 .header {
   background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
   font-size: 35px;
 }
-ul.a {list-style-type: square;
+ul.a {
+  list-style-type: square;
 }
 .column {
   float: left;

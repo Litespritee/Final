@@ -4,6 +4,7 @@ body {
   font-family:'Courier New', monospace;
 }
 body.dark-mode {
+  background-image: url("black-stripped-paper.jpg");
   background: #010101;
   color: #ffffff;
 }
