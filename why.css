@@ -55,9 +55,11 @@ display: block;
 max-width: 960px;
 margin: auto;
 }
-img{
-  float: left;
-  padding: 5px;
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
 }
 div.gallery {
   display: flex;
