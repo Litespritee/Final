@@ -4,17 +4,22 @@ body {
   font-family:'Courier New', monospace;
 }
 body.dark-mode {
-   background-image: url("black-stripped-paper.jpg");
+  background-image: url("black-stripped-paper.jpg");
   background: #010101;
   color: #ffffff;
 }
 body.dark-mode button {
   background-color: #ffffff;
 }
+img {
+max-width: 100%;
+height: auto;
+}
+
 .row {
   display: flex;
   box-align: center;
-  color: #444647
+  color: #444647;
 }
 .column {
   flex: 33.33%;
@@ -38,7 +43,7 @@ nav ul li:last-child {
   border-bottom: none;
   text-align: center;}
 nav ul li a {
-  color: #444647;
+  color:#FBBCD6;
   text-align: center;
   text-decoration: none;}
 nav ul li a:hover {
