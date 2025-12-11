@@ -55,7 +55,28 @@ img{
   float: left;
   padding: 5px;
 }
-
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+ul.a {list-style-type: square;
+}
+.column {
+  float: left;
+  padding: 0px;
+}
+.column.side {
+  width: 25%;
+}
+.column.middle {
+  width: 50%;
+}
+.row:after {
+  display: table;
+  clear: both;
+}
 footer{
   color: #444647;
   text-align: center;

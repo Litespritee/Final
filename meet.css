@@ -4,7 +4,7 @@ body {
   font-family:'Courier New', monospace;
 }
 body.dark-mode {
-  background-image: "";
+  background-image: url("black-stripped-paper.jpg");
   background-color: #010101;
   color: #ffffff;
 }
@@ -48,6 +48,8 @@ nav ul li a:hover {
 }
 h1 {
   color: #444647;
+  text-align: center;
+  font-size: 42px;
 }
 .container {
 display: block;
@@ -65,10 +67,6 @@ footer{
   position: fixed;
   bottom: 0;
   font-size: 8px;
-}
-h1{
-  text-align: center;
-  font-size: 42px;
 }
 .lil1 {
    display: grid;
